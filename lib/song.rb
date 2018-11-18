@@ -36,5 +36,6 @@ class Song
         output[_genre] = 1
       end
     end
+    output
   end
-end
+end # class Song
