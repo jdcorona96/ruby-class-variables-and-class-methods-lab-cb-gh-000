@@ -39,7 +39,7 @@ class Song
     output
   end
 
-  def self.genre_count
+  def self.artist_count
     output = {}
     @@artists.each do |_artist|
       if output.key?(_artist)
